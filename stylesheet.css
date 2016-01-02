@@ -1,0 +1,91 @@
+body{
+  font-family: Roboto;
+  font-weight: 300px;
+  padding-bottom: 100px;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-image: url("background.png");
+}
+
+#header{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2{
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+#authors{
+  font-weight: 400;
+}
+
+#main{
+  margin-top: 140px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#firstCarousel{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#firstCarousel p{
+  padding-top: 25px;
+}
+
+.carousel-control.left {
+background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0.0001)));
+background-image: -webkit-linear-gradient(left, color-stop(rgba(0,0,0,0.5) 0), color-stop(rgba(0,0,0,0.0001) 100%));
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0.5) 0, rgba(0,0,0,0.0001) 100%);
+background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0, rgba(0,0,0,0.0001) 100%);
+background-repeat: repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1)
+}
+.carousel-control.right {
+background-image: -webkit-gradient(linear, 0 top, 100% top, from(rgba(0,0,0,0.0001)), to(rgba(0,0,0,0.5)));
+background-image: -webkit-linear-gradient(left, color-stop(rgba(0,0,0,0.0001) 0), color-stop(rgba(0,0,0,0.5) 100%));
+background-image: -moz-linear-gradient(left, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.5) 100%);
+background-image: linear-gradient(to right, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.5) 100%);
+background-repeat: repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1)
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+#demos{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+a.fancybox img {
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+  box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+  -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+} 
+
+a.fancybox{ position: relative; display: inline-block }
